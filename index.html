@@ -1,0 +1,57 @@
+<!-- Josh Bailey — 10/04/2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validating HTML Forms with JavaScript</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css" />
+
+  <!-- JavaScript -->
+  <script src="scripts/form-validation.js" defer></script>
+</head>
+
+<body>
+  <!-- Updated on 10/04/2025 -->
+  <header>
+    <h1>Validating HTML Forms with JavaScript</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Contact Form</h2>
+
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" class="required" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" class="required" />
+
+      <label for="topic">Topic:</label>
+      <select id="topic" class="required">
+        <option value="">-- Select a Topic --</option>
+        <option value="general">General Inquiry</option>
+        <option value="support">Support</option>
+        <option value="feedback">Feedback</option>
+      </select>
+
+      <input type="button" id="submit-btn" value="Submit" />
+    </form>
+
+    <span id="missing-count"></span>
+  </main>
+
+  <footer>
+    <p>&copy;2025, Josh Bailey</p>
+  </footer>
+</body>
+</html>

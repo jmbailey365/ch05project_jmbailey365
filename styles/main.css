@@ -1,0 +1,22 @@
+/* Josh Bailey — 10/04/2025 */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+}
+
+.required {
+  border: 2px solid yellow;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.invalid {
+  border-color: red !important;
+}
+
+#missing-count {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
